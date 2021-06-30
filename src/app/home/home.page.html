@@ -12,13 +12,13 @@
       Usuarios
     </ion-list-header>
 
-    <ion-item *ngFor="let booking of Bookings" class="user-list">
+    <ion-item *ngFor="let user of Users" class="user-list">
       <ion-label>
         <h5>
           <ion-icon name="person"></ion-icon> {{user.name}}
         </h5>
         <p>
-          <ion-icon name="call"></ion-icon> {{user.country}}
+           {{user.country}}
         </p>
       </ion-label>
 

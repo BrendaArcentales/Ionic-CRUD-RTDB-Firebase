@@ -6,7 +6,7 @@
   
   <ion-content>
     <ion-list lines="full">
-      <form [formGroup]="bookingForm" (ngSubmit)="formSubmit()">
+      <form [formGroup]="UserForm" (ngSubmit)="formSubmit()">
         <ion-item>
           <ion-label position="floating">Nombre</ion-label>
           <ion-input formControlName="name" type="text" required></ion-input>
